@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="viewusers.jsp">View All Records</a><br/>  
+
+        <h1>Add New User</h1>  
+        <form action="adduser.jsp" method="post">  
+            <table>  
+                <tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+                <tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+                <tr><td>Sex:</td><td>  
+                        <input type="radio" name="sex" value="male"/>Male   
+                        <input type="radio" name="sex" value="female"/>Female </td></tr>  
+                <tr><td>Mobile number:</td><td><input type="text" name="mobile"/></td></tr>  
+                <tr><td>Age:</td><td><input type="text" name="age"/></td></tr>  
+                <tr><td>Hobbies:</td><td><input type="text" name="hobbies"/></td></tr>  
+                <tr><td>Upload profile pic:</td><td><input type="file" name="prfpic"/></td></tr>  
+               
+                <tr><td colspan="2"><input type="submit" value="Add User"/></td></tr>  
+            </table>  
+        </form>  
+    </body>
+</html>
